@@ -505,8 +505,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     }
                 ],
                 stream: true,  // リアルタイムレスポンスのためストリーミングを有効化
-                temperature: 0.3,  // 翻訳精度向上のため低めの値を設定
-                verbosity: "low",  // GPT-5系の新パラメータ（簡潔な出力）
+                verbosity: "medium",  // GPT-5系の新パラメータ
                 reasoning_effort: "minimal"  // GPT-5系の新パラメータ（速度重視）
             };
             
